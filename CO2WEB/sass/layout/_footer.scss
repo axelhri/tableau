@@ -1,0 +1,102 @@
+.copyright {
+    padding-top: 2em;
+}
+
+.copyright h2 {
+    border-top: solid 2px #B5D653;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.footerlink {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.footerlink a {
+    margin: 5px;
+    text-decoration: none;
+    color: #019961;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.footerlink a:hover {
+    text-decoration: underline;
+}
+
+// HTML
+
+// <footer>
+// <div class="copyright">
+//     <h2>Copyright © 2022 CO2WEB. <br> All rights reserved.</h2>
+// </div>
+
+// <div class="footerlink">
+
+//     <a href="home.html">Accueil</a>
+//     <a href="mode-d_emploi.html">Mode d'emploi</a><br><br>
+//     <a href="velib.html">Trouver un velib</a>
+//     <a href="Calculateur.html">Calculateur</a><br><br>
+//     <a href="Apropos.html">A propos</a>
+//     <a href="Contact.html">Contact</a>
+
+// </div>
+// </footer>
+
+// Tablette
+
+@media screen and (min-width: 768px) {
+    .copyright {
+        display: none;
+    }
+
+    .footerlink {
+        border-top: solid 2px #B5D653;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 15px;
+        gap: 10px;
+    }
+
+
+    }
+
+            // Notebook
+
+@media screen and (min-width: 1336px) {
+
+    .footerlink {
+        border-top: solid 2px #B5D653;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 15px;
+        gap: 10px;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+
+    }
+
+                // Desktop
+
+                @media screen and (min-width: 1920px) {
+                    .footerlink a {
+                        margin: 5px;
+                        text-decoration: none;
+                        color: #019961;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                    }
+    
+                    }
+
+

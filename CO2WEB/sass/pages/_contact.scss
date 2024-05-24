@@ -1,0 +1,402 @@
+.contactmain h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.contactmain form {
+    margin: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+
+.contactmain{
+    overflow: hidden;
+}
+
+form input {
+    background-color: #ffffff;
+    width: 94%;
+    height: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.123);
+}
+
+textarea {
+    background-color: #ffffff;
+    width: 94%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.123);
+}
+
+form span {
+    background-color: #ffffff;
+}
+
+.nam input {
+    width:  90%;
+}
+
+.nam {
+    display: flex;
+}
+
+form ::placeholder {
+    color: rgba(0, 0, 0, 0.363);
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.submit {
+    margin-top: 17em;
+    border-radius: 50px;  
+    color: white; 
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #B5D653, #79C258, #019961);
+    width: 12em;
+    height: 3em;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.082); 
+}
+
+form label {
+    background-color: #ffffff;
+}
+
+.formback1, .formback2 {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.116); 
+}
+
+.submit:hover {
+    background: #019961;
+}
+
+.formback1 {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 28em;
+}
+
+.formback2 {
+    display: none;
+}
+
+.feuilles {
+    display: none;
+}
+
+.contactmain {
+    height: 34em;
+    transform: translate(0%, 0%);
+}
+
+// Tablette
+
+@media screen and (min-width: 768px) {
+    .formback1{
+        display: none;
+    }
+
+    .contactmain {
+        height: 45em;
+        transform: translate(0%, 5%);
+    }
+
+    .formback2 {
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 24em;
+    }
+
+    .nam2 input {
+        width:  23em;
+        margin-right: 20px;
+    }
+    
+    .nam2 {
+        display: flex;
+    }
+
+    .form2 textarea {
+        width: 100%;
+    }
+
+    textarea {
+        height: 2em;
+    }
+
+    .submit {
+        margin-top: 2em;
+        border-radius: 50px;  
+        color: white; 
+        font-size: 20px;
+        cursor: pointer;
+        background: linear-gradient(to bottom right, #B5D653, #79C258, #019961);
+        width: 7em;
+        height: 45px;
+        border-style: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.082); 
+    }
+
+    .flexb {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    }
+
+    // Notebook
+
+@media screen and (min-width: 1366px) {
+
+    .formback2 {
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        z-index: 1;
+    }
+
+    .submit {
+        margin-top: 7em;
+    }
+
+    .nam2 input {
+        width:  26em;
+        margin-right: 20px;
+    }
+
+    .contactmain {
+        height: 38em;
+        transform: translate(0%, 5%);
+    }
+
+    .form2 label {
+        height: 6em;
+    }
+
+    textarea {
+        height: 2em;
+    }
+
+    .contactmain h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        padding-bottom: 1em;
+    }
+
+    .feuilles {
+        display: block;
+    }
+
+    .fl1 {
+        position: absolute;
+        top: 3%;
+        left: 6%;
+        width: 23%;
+    }
+    
+    .fl2 {
+        position: absolute;
+        top: 40%;
+        left: 73%;
+        width: 20%;
+    }
+
+    .fl3 {
+        position: absolute;
+        top: 41%;
+        left: 5%;
+        width: 20%;
+    }
+
+    .fl4 {
+        position: absolute;
+        top: 10%;
+        left: 75%;
+        z-index: 1;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 20px solid #019961;
+    }
+
+    .fl5 {
+        position: absolute;
+        top: 82px;
+        left: 1045px;
+        z-index: 1;
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        border: 40px solid #ffffff;
+    }
+
+    .fl6 {
+        position: absolute;
+        top: 8%;
+        left: 85%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 15px solid #79C258;
+    }
+
+    
+    .fl7 {
+        position: absolute;
+        top: 26%;
+        left: 84%;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 15px solid #B5D653;
+    }
+    
+    }
+
+        // Desktop
+
+@media screen and (min-width: 1920px) {
+
+    .formback2 {
+        padding: 2em;
+        width: 60%;
+        height: 35em;
+        transform: translate(-50%, 0%);
+        z-index: 1;
+    }
+
+    .form2 label {
+        height: 6em;
+    }
+
+    textarea {
+        height: 2em;
+    }
+
+    .contactmain h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        padding-bottom: 2em;
+    }
+
+    .feuilles {
+        display: block;
+    }
+
+    .fl1 {
+        position: absolute;
+        top: 1%;
+        left: 7.5%;
+        width: 20%;
+    }
+    
+    .fl2 {
+        position: absolute;
+        top: 40%;
+        left: 73%;
+        width: 20%;
+    }
+
+    .fl3 {
+        position: absolute;
+        top: 40%;
+        left: 4.5%;
+        width: 20%;
+    }
+
+    .fl4 {
+        position: absolute;
+        top: 5%;
+        left: 75%;
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 30px solid #019961;
+    }
+
+    .fl5 {
+        position: absolute;
+        top: 64px;
+        left: 1465px;
+        z-index: 1;
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        border: 50px solid #ffffff;
+    }
+
+    .fl6 {
+        position: absolute;
+        top: 1%;
+        left: 84%;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 20px solid #79C258;
+    }
+
+    
+    .fl7 {
+        position: absolute;
+        top: 19%;
+        left: 83%;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 20px solid #B5D653;
+    }
+
+    .nam2 input {
+        width:  38em;
+        margin-right: 20px;
+    }
+
+    .nam2 label {
+        height: 8em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nam2 {
+        display: flex;
+    }
+
+    .contactmain {
+        height: 50em;
+        transform: translate(0%, 5%);
+    }
+
+    .submit {
+        margin-top: 12em;
+    }
+    
+    }

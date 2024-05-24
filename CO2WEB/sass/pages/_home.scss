@@ -1,0 +1,315 @@
+.bouton1 {
+  display: flex;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background: hsl(137, 48%, 46%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: wavy;
+  width: 70%;
+  justify-content: center;
+  margin-left: 7%;
+
+
+}
+
+a.bouton1:hover {
+  background: #019961;
+}
+
+.bouton1 {
+  background: linear-gradient(to bottom right, #B5D653, #79C258, #019961);
+}
+
+.bouton2 {
+  display: flex;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #019961;
+  padding: 8px 17px;
+  color: #019961;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: wavy;
+  width: 75%;
+  justify-content: center;
+  transition: 500ms;
+  margin-left: 7%;
+
+}
+
+a.bouton2:hover {
+  background: #019961;
+  color: white;
+  transition: 500ms;
+}
+
+.ou {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  
+}
+
+
+
+.imagegreen {
+  position: relative;
+  left: 35%;
+  width: 15em;
+}
+
+.paragraphegreen {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  margin-left: 7%;
+}
+
+.titlegreen {
+  display: flex;
+  
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: left;
+  margin-left: 7%;
+  
+}
+
+.titlegreen {
+  font-family: "Montserrat", sans-serif;
+  font-size:large;
+  font-weight: 600;
+}
+
+// Tablette
+
+@media screen and (min-width: 768px) {
+  .imagegreen {
+    display: flex;
+    width:24em;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+  }
+
+    .imgtxt {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      padding-bottom: 20%;
+    }
+
+  .texthome {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  
+
+  .paragraphegreen {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 0;
+  }
+  
+  .titlegreen {
+    display: flex;
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: left;
+    margin-left: 0;
+    
+  }
+
+  .btnhome {
+    display: flex;
+    margin-top: -5%;
+    padding-bottom: 20%;
+  }
+  .bouton1 {
+    display: flex;
+    border-radius: 50px;
+    padding: 15px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 5%;
+    
+  
+  
+  }
+
+  .bouton2 {
+    display: flex;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #019961;
+    padding: 15px 15px;
+    color: #019961;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40%;
+    transition: 500ms;
+    margin-left: 2%;
+  
+  }
+
+  .ou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 2%;
+    
+  }
+}
+
+// Notebook
+
+@media screen and (min-width: 1366px) {
+  .imagegreen {
+    display: flex;
+    width:40em;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+  }
+
+    .imgtxt {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      padding-bottom: 0%;
+    }
+
+  .texthome {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+    margin: 5em;
+    padding-bottom: 0em;
+  }
+  
+
+  .paragraphegreen {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 27px;
+    margin-left: 0;
+    
+  }
+
+  p br {
+    display: none;
+  }
+  
+  .titlegreen {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: left;
+    margin-left: 0;
+    font-size: 28px;
+    
+  }
+
+  .btnhome {
+    display: flex;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    position: relative;
+    transform: translate(0%, -300%); 
+  }
+  .bouton1 {
+    display: flex;
+    border-radius: 50px;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    
+  
+  
+  }
+
+  .bouton2 {
+    display: flex;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #019961;
+    padding: 10px 10px;
+    color: #019961;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20%;
+    transition: 500ms;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .ou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 2%;
+    
+  }
+}
+
+        // Desktop
+
+        @media screen and (min-width: 1920px) {
+          .imagegreen {
+            display: flex;
+            width:52em;
+            justify-content: flex-end;
+            flex-direction: row;
+            position: relative;
+            left: 0;
+          }
+        
+
+          
+          
+          }
+
+
+
